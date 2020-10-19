@@ -1,0 +1,1193 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="nodomain.freeyourgadget.gadgetbridge"
+4    android:versionCode="176"
+5    android:versionName="0.45.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+10    <!--
+11        Comment in for testing Pebble Emulator
+12        <uses-permission android:name="android.permission.INTERNET" />
+13    -->
+14    <uses-permission android:name="android.permission.BLUETOOTH" />
+14-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:8:5-68
+14-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:8:22-65
+15    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+15-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:9:5-74
+15-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:9:22-71
+16    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+16-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:10:5-72
+16-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:10:22-69
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:11:5-75
+17-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:11:22-72
+18    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+18-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:12:5-81
+18-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:12:22-78
+19    <uses-permission android:name="android.permission.CALL_PHONE" />
+19-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:13:5-69
+19-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:13:22-66
+20    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+20-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:14:5-77
+20-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:14:22-74
+21    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+21-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:15:5-70
+21-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:15:22-67
+22    <uses-permission android:name="android.permission.SEND_SMS" />
+22-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:16:5-67
+22-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:16:22-64
+23    <uses-permission android:name="android.permission.READ_CONTACTS" />
+23-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:17:5-72
+23-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:17:22-69
+24    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+24-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:18:5-80
+24-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:18:22-77
+25    <uses-permission android:name="android.permission.READ_CALENDAR" />
+25-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:19:5-72
+25-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:19:22-69
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:20:5-81
+26-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:20:22-78
+27    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+27-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:21:5-80
+27-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:21:22-77
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:22:5-81
+28-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:22:22-78
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+29-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:23:5-77
+29-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:23:22-74
+30    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Used for reverse find device -->
+30-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:24:5-66
+30-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:24:22-63
+31    <uses-permission android:name="cyanogenmod.permission.ACCESS_WEATHER_MANAGER" />
+31-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:25:5-85
+31-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:25:22-82
+32    <uses-permission android:name="cyanogenmod.permission.READ_WEATHER" />
+32-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:26:5-75
+32-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:26:22-72
+33    <uses-permission android:name="lineageos.permission.ACCESS_WEATHER_MANAGER" />
+33-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:27:5-83
+33-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:27:22-80
+34    <uses-permission android:name="lineageos.permission.READ_WEATHER" />
+34-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:28:5-73
+34-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:28:22-70
+35    <uses-permission android:name="org.omnirom.omnijaws.READ_WEATHER" />
+35-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:29:5-73
+35-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:29:22-70
+36
+37    <uses-feature
+37-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:31:5-33:35
+38        android:name="android.hardware.bluetooth"
+38-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:32:9-50
+39        android:required="true" />
+39-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:33:9-32
+40    <uses-feature
+40-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:34:5-36:36
+41        android:name="android.hardware.bluetooth_le"
+41-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:35:9-53
+42        android:required="false" />
+42-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:36:9-33
+43    <uses-feature
+43-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:37:5-39:36
+44        android:name="android.hardware.telephony"
+44-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:38:9-50
+45        android:required="false" />
+45-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:39:9-33
+46
+47    <application
+47-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:41:5-519:19
+48        android:name="nodomain.freeyourgadget.gadgetbridge.GBApplication"
+48-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:42:9-38
+49        android:allowBackup="false"
+49-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:43:9-36
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ebde7b3facba6b092e49dd0d4ec8f05f/core-1.1.0/AndroidManifest.xml:24:18-86
+51        android:fullBackupContent="false"
+51-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:44:9-42
+52        android:icon="@mipmap/ic_launcher"
+52-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:45:9-43
+53        android:label="@string/app_name"
+53-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:46:9-41
+54        android:roundIcon="@mipmap/ic_launcher_round"
+54-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:47:9-54
+55        android:supportsRtl="true"
+55-->[com.github.wax911:android-emojify:0.1.7] /home/joemaier/.gradle/caches/transforms-2/files-2.1/652897681a841902ebbf3b756a511d25/jetified-android-emojify-0.1.7/AndroidManifest.xml:13:9-35
+56        android:theme="@style/GadgetbridgeTheme" >
+56-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:48:9-49
+57        <activity android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.WidgetSettingsActivity" />
+57-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:49:9-85
+57-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:49:19-73
+58        <activity
+58-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:50:9-61:20
+59            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2"
+59-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:51:13-55
+60            android:label="@string/title_activity_controlcenter"
+60-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:52:13-65
+61            android:theme="@style/SplashTheme" >
+61-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:53:13-47
+62            <intent-filter>
+62-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:54:13-60:29
+63                <category android:name="android.intent.category.DEFAULT" />
+63-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:17-76
+63-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:27-73
+64
+65                <action android:name="android.intent.action.MAIN" />
+65-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:57:17-69
+65-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:57:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:59:17-77
+67-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:59:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:62:9-65:72
+71            android:name="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity"
+71-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:63:13-56
+72            android:label="@string/title_activity_settings"
+72-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:64:13-60
+73            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+73-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:65:13-69
+74        <activity
+74-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:66:9-69:89
+75            android:name="nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsPreferencesActivity"
+75-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:67:13-72
+76            android:label="@string/activity_prefs_charts"
+76-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:68:13-58
+77            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsPreferencesActivity" />
+77-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:69:13-86
+78        <activity
+78-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:70:9-73:73
+79            android:name="nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPreferencesActivity"
+79-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:71:13-69
+80            android:label="@string/preferences_miband_settings"
+80-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:72:13-64
+81            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+81-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:73:13-70
+82        <activity
+82-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:74:9-77:73
+83            android:name="nodomain.freeyourgadget.gadgetbridge.devices.zetime.ZeTimePreferenceActivity"
+83-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:75:13-68
+84            android:label="@string/zetime_title_settings"
+84-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:76:13-58
+85            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+85-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:77:13-70
+86        <activity
+86-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:78:9-81:72
+87            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesActivity"
+87-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:79:13-65
+88            android:label="@string/activity_summaries"
+88-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:80:13-55
+89            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+89-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:81:13-69
+90        <activity
+90-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:82:9-86:72
+91            android:name="nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AppManagerActivity"
+91-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:83:13-69
+92            android:label="@string/title_activity_appmanager"
+92-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:84:13-62
+93            android:launchMode="singleTop"
+93-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:85:13-43
+94            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+94-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:86:13-69
+95        <activity
+95-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:87:9-90:73
+96            android:name="nodomain.freeyourgadget.gadgetbridge.activities.AppBlacklistActivity"
+96-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:88:13-60
+97            android:label="@string/title_activity_appblacklist"
+97-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:89:13-64
+98            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+98-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:90:13-70
+99        <activity
+99-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:91:9-94:73
+100            android:name="nodomain.freeyourgadget.gadgetbridge.activities.CalBlacklistActivity"
+100-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:92:13-60
+101            android:label="@string/title_activity_calblacklist"
+101-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:93:13-64
+102            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity" />
+102-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:94:13-70
+103        <activity
+103-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:95:9-312:20
+104            android:name="nodomain.freeyourgadget.gadgetbridge.activities.FwAppInstallerActivity"
+104-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:96:13-62
+105            android:label="@string/title_activity_fw_app_insaller"
+105-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:97:13-67
+106            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" >
+106-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:98:13-69
+107            <intent-filter>
+107-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:99:13-192:29
+108                <action android:name="android.intent.action.VIEW" />
+108-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:100:17-69
+108-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:100:25-66
+109
+110                <category android:name="android.intent.category.DEFAULT" />
+110-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:17-76
+110-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:27-73
+111
+112                <data android:mimeType="*/*" />
+112-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+112-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:23-45
+113                <!-- needed for aosp-derived ROMs? -->
+114
+115                <data android:host="*" />
+115-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+115-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:107:23-39
+116                <data android:scheme="file" />
+116-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+116-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:108:23-44
+117
+118                <!-- as seen on openkeychain repo: https://github.com/open-keychain/open-keychain/blob/master/OpenKeychain/src/main/AndroidManifest.xml -->
+119
+120                <data android:pathPattern="/.*\\.fw" />
+120-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+120-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+121                <data android:pathPattern="/.*\\..*\\.fw" />
+121-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+121-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+122                <data android:pathPattern="/.*\\..*\\..*\\.fw" />
+122-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+122-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+123                <data android:pathPattern="/.*\\..*\\..*\\..*\\.fw" />
+123-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+123-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+124                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.fw" />
+124-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+124-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+125                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+125-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+125-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+126                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+126-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+126-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+127                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+127-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+127-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+128                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+128-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+128-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+129                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+129-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+129-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+130                <data android:pathPattern="/.*\\.ft.en" />
+130-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+130-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+131                <data android:pathPattern="/.*\\..*\\.ft.en" />
+131-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+131-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+132                <data android:pathPattern="/.*\\..*\\..*\\.ft.en" />
+132-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+132-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+133                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft.en" />
+133-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+133-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+134                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft.en" />
+134-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+134-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+135                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+135-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+135-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+136                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+136-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+136-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+137                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+137-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+137-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+138                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+138-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+138-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+139                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+139-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+139-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+140                <data android:pathPattern="/.*\\.ft" />
+140-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+140-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+141                <data android:pathPattern="/.*\\..*\\.ft" />
+141-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+141-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+142                <data android:pathPattern="/.*\\..*\\..*\\.ft" />
+142-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+142-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+143                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft" />
+143-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+143-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+144                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft" />
+144-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+144-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+145                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+145-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+145-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+146                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+146-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+146-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+147                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+147-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+147-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+148                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+148-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+148-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+149                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+149-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+149-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+150                <data android:pathPattern="/.*\\.res" />
+150-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+150-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+151                <data android:pathPattern="/.*\\..*\\.res" />
+151-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+151-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+152                <data android:pathPattern="/.*\\..*\\..*\\.res" />
+152-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+152-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+153                <data android:pathPattern="/.*\\..*\\..*\\..*\\.res" />
+153-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+153-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+154                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.res" />
+154-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+154-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+155                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.res" />
+155-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+155-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+156                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+156-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+156-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+157                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+157-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+157-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+158                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+158-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+158-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+159                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+159-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+159-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+160                <data android:pathPattern="/.*\\.gps" />
+160-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+160-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+161                <data android:pathPattern="/.*\\..*\\.gps" />
+161-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+161-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+162                <data android:pathPattern="/.*\\..*\\..*\\.gps" />
+162-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+162-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+163                <data android:pathPattern="/.*\\..*\\..*\\..*\\.gps" />
+163-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+163-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+164                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.gps" />
+164-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+164-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+165                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+165-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+165-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+166                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+166-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+166-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+167                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+167-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+167-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+168                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+168-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+168-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+169                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+169-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+169-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+170                <data android:pathPattern="/.*\\.pbw" />
+170-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+170-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+171                <data android:pathPattern="/.*\\..*\\.pbw" />
+171-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+171-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+172                <data android:pathPattern="/.*\\..*\\..*\\.pbw" />
+172-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+172-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+173                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbw" />
+173-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+173-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+174                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbw" />
+174-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+174-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+175                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+175-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+175-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+176                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+176-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+176-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+177                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+177-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+177-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+178                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+178-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+178-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+179                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+179-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+179-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+180                <data android:pathPattern="/.*\\.pbz" />
+180-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+180-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+181                <data android:pathPattern="/.*\\..*\\.pbz" />
+181-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+181-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+182                <data android:pathPattern="/.*\\..*\\..*\\.pbz" />
+182-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+182-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+183                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbz" />
+183-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+183-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+184                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbz" />
+184-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+184-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+185                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+185-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+185-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+186                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+186-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+186-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+187                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+187-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+187-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+188                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+188-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+188-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+189                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+189-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+189-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+190                <data android:pathPattern="/.*\\.pbl" />
+190-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+190-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+191                <data android:pathPattern="/.*\\..*\\.pbl" />
+191-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+191-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+192                <data android:pathPattern="/.*\\..*\\..*\\.pbl" />
+192-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+192-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+193                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbl" />
+193-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+193-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+194                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbl" />
+194-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+194-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+195                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+195-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+195-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+196                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+196-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+196-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+197                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+197-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+197-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+198                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+198-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+198-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+199                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+199-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+199-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+200            </intent-filter>
+201            <intent-filter>
+201-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:193:13-285:29
+202                <action android:name="android.intent.action.VIEW" />
+202-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:100:17-69
+202-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:100:25-66
+203
+204                <category android:name="android.intent.category.DEFAULT" />
+204-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:17-76
+204-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:27-73
+205
+206                <!-- no mimeType filter, needed for CM-derived ROMs? -->
+207
+208                <data android:host="*" />
+208-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+208-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:107:23-39
+209                <data android:scheme="file" />
+209-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+209-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:108:23-44
+210
+211                <!-- as seen on openkeychain repo: https://github.com/open-keychain/open-keychain/blob/master/OpenKeychain/src/main/AndroidManifest.xml -->
+212
+213                <data android:pathPattern="/.*\\.fw" />
+213-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+213-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+214                <data android:pathPattern="/.*\\..*\\.fw" />
+214-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+214-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+215                <data android:pathPattern="/.*\\..*\\..*\\.fw" />
+215-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+215-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+216                <data android:pathPattern="/.*\\..*\\..*\\..*\\.fw" />
+216-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+216-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+217                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.fw" />
+217-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+217-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+218                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+218-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+218-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+219                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+219-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+219-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+220                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+220-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+220-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+221                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+221-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+221-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+222                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw" />
+222-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+222-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+223                <data android:pathPattern="/.*\\.ft.en" />
+223-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+223-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+224                <data android:pathPattern="/.*\\..*\\.ft.en" />
+224-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+224-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+225                <data android:pathPattern="/.*\\..*\\..*\\.ft.en" />
+225-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+225-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+226                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft.en" />
+226-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+226-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+227                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft.en" />
+227-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+227-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+228                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+228-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+228-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+229                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+229-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+229-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+230                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+230-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+230-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+231                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+231-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+231-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+232                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en" />
+232-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+232-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+233                <data android:pathPattern="/.*\\.ft" />
+233-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+233-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+234                <data android:pathPattern="/.*\\..*\\.ft" />
+234-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+234-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+235                <data android:pathPattern="/.*\\..*\\..*\\.ft" />
+235-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+235-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+236                <data android:pathPattern="/.*\\..*\\..*\\..*\\.ft" />
+236-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+236-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+237                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.ft" />
+237-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+237-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+238                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+238-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+238-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+239                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+239-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+239-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+240                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+240-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+240-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+241                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+241-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+241-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+242                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft" />
+242-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+242-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+243                <data android:pathPattern="/.*\\.res" />
+243-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+243-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+244                <data android:pathPattern="/.*\\..*\\.res" />
+244-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+244-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+245                <data android:pathPattern="/.*\\..*\\..*\\.res" />
+245-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+245-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+246                <data android:pathPattern="/.*\\..*\\..*\\..*\\.res" />
+246-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+246-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+247                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.res" />
+247-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+247-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+248                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.res" />
+248-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+248-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+249                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+249-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+249-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+250                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+250-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+250-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+251                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+251-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+251-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+252                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res" />
+252-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+252-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+253                <data android:pathPattern="/.*\\.gps" />
+253-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+253-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+254                <data android:pathPattern="/.*\\..*\\.gps" />
+254-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+254-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+255                <data android:pathPattern="/.*\\..*\\..*\\.gps" />
+255-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+255-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+256                <data android:pathPattern="/.*\\..*\\..*\\..*\\.gps" />
+256-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+256-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+257                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.gps" />
+257-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+257-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+258                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+258-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+258-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+259                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+259-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+259-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+260                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+260-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+260-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+261                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+261-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+261-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+262                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps" />
+262-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+262-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+263                <data android:pathPattern="/.*\\.pbw" />
+263-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+263-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+264                <data android:pathPattern="/.*\\..*\\.pbw" />
+264-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+264-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+265                <data android:pathPattern="/.*\\..*\\..*\\.pbw" />
+265-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+265-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+266                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbw" />
+266-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+266-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+267                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbw" />
+267-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+267-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+268                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+268-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+268-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+269                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+269-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+269-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+270                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+270-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+270-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+271                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+271-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+271-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+272                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw" />
+272-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+272-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+273                <data android:pathPattern="/.*\\.pbz" />
+273-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+273-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+274                <data android:pathPattern="/.*\\..*\\.pbz" />
+274-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+274-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+275                <data android:pathPattern="/.*\\..*\\..*\\.pbz" />
+275-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+275-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+276                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbz" />
+276-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+276-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+277                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbz" />
+277-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+277-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+278                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+278-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+278-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+279                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+279-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+279-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+280                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+280-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+280-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+281                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+281-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+281-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+282                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz" />
+282-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+282-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+283                <data android:pathPattern="/.*\\.pbl" />
+283-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+283-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+284                <data android:pathPattern="/.*\\..*\\.pbl" />
+284-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+284-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+285                <data android:pathPattern="/.*\\..*\\..*\\.pbl" />
+285-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+285-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+286                <data android:pathPattern="/.*\\..*\\..*\\..*\\.pbl" />
+286-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+286-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+287                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\.pbl" />
+287-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+287-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+288                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+288-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+288-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+289                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+289-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+289-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+290                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+290-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+290-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+291                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+291-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+291-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+292                <data android:pathPattern="/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl" />
+292-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+292-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+293            </intent-filter>
+294
+295            <!-- to receive the firmwares from the download content provider -->
+296            <intent-filter>
+296-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:288:13-294:29
+297                <action android:name="android.intent.action.VIEW" />
+297-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:100:17-69
+297-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:100:25-66
+298
+299                <category android:name="android.intent.category.DEFAULT" />
+299-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:17-76
+299-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:27-73
+300
+301                <data android:mimeType="application/octet-stream" />
+301-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+301-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:23-45
+302            </intent-filter>
+303            <!-- to receive firmwares from the download content provider if recognized as zip -->
+304            <intent-filter>
+304-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:296:13-303:29
+305                <action android:name="android.intent.action.VIEW" />
+305-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:100:17-69
+305-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:100:25-66
+306
+307                <category android:name="android.intent.category.DEFAULT" />
+307-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:17-76
+307-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:27-73
+308
+309                <data android:mimeType="application/zip" />
+309-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+309-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:23-45
+310                <data android:mimeType="application/x-zip-compressed" />
+310-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+310-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:23-45
+311            </intent-filter>
+312            <!-- to receive files from the "share" intent -->
+313            <intent-filter>
+313-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:305:13-311:29
+314                <action android:name="android.intent.action.SEND" />
+314-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:306:17-69
+314-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:306:25-66
+315
+316                <category android:name="android.intent.category.DEFAULT" />
+316-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:17-76
+316-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:27-73
+317
+318                <data android:mimeType="*/*" />
+318-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+318-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:23-45
+319            </intent-filter>
+320        </activity>
+321
+322        <service
+322-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:314:9-321:19
+323            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.NotificationListener"
+323-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:315:13-64
+324            android:label="@string/app_name"
+324-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:316:13-45
+325            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+325-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:317:13-87
+326            <intent-filter>
+326-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:318:13-320:29
+327                <action android:name="android.service.notification.NotificationListenerService" />
+327-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:319:17-99
+327-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:319:25-96
+328            </intent-filter>
+329        </service>
+330        <service android:name="nodomain.freeyourgadget.gadgetbridge.service.NotificationCollectorMonitorService" />
+330-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:322:9-80
+330-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:322:18-77
+331        <service android:name="nodomain.freeyourgadget.gadgetbridge.service.DeviceCommunicationService" />
+331-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:323:9-71
+331-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:323:18-68
+332
+333        <receiver
+333-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:325:9-331:20
+334            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationReceiver"
+334-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:326:13-71
+335            android:enabled="true" >
+335-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:327:13-35
+336            <intent-filter>
+336-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:328:13-330:29
+337                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2" />
+337-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:329:17-104
+337-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:329:25-101
+338            </intent-filter>
+339        </receiver>
+340
+341        <activity android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationConfig" >
+341-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:333:9-337:20
+341-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:333:19-75
+342            <intent-filter>
+342-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:334:13-336:29
+343                <action android:name="ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES" />
+343-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:335:17-112
+343-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:335:25-109
+344            </intent-filter>
+345        </activity>
+346
+347        <receiver
+347-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:339:9-347:20
+348            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.AutoStartReceiver"
+348-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:340:13-61
+349            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+349-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:341:13-75
+350            <intent-filter>
+350-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:342:13-346:29
+351                <action android:name="android.intent.action.BOOT_COMPLETED" />
+351-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:343:17-79
+351-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:343:25-76
+352
+353                <category android:name="android.intent.category.DEFAULT" />
+353-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:17-76
+353-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:27-73
+354            </intent-filter>
+355        </receiver>
+356        <receiver
+356-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:348:9-354:20
+357            android:name="nodomain.freeyourgadget.gadgetbridge.externalevents.BluetoothStateChangeReceiver"
+357-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:349:13-72
+358            android:exported="false" >
+358-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:350:13-37
+359            <intent-filter>
+359-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:351:13-353:29
+360                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+360-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:352:17-89
+360-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:352:25-86
+361            </intent-filter>
+362        </receiver>
+363        <receiver
+363-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:355:9-361:20
+364            android:name="nodomain.freeyourgadget.gadgetbridge.service.receivers.GBMusicControlReceiver"
+364-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:356:13-69
+365            android:exported="false" >
+365-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:357:13-37
+366            <intent-filter>
+366-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:358:13-360:29
+367                <action android:name="nodomain.freeyourgadget.gadgetbridge.musiccontrol" />
+367-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:359:17-92
+367-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:359:25-89
+368            </intent-filter>
+369        </receiver>
+370        <receiver
+370-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:362:9-368:20
+371            android:name="nodomain.freeyourgadget.gadgetbridge.service.receivers.GBCallControlReceiver"
+371-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:363:13-68
+372            android:exported="false" >
+372-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:364:13-37
+373            <intent-filter>
+373-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:365:13-367:29
+374                <action android:name="nodomain.freeyourgadget.gadgetbridge.callcontrol" />
+374-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:366:17-91
+374-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:366:25-88
+375            </intent-filter>
+376        </receiver>
+377        <receiver
+377-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:369:9-372:49
+378            android:name="nodomain.freeyourgadget.gadgetbridge.database.PeriodicExporter"
+378-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:370:13-54
+379            android:enabled="true"
+379-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:371:13-35
+380            android:exported="false" />
+380-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:372:13-37
+381        <!--
+382            forcing the DebugActivity to portrait mode avoids crashes with the progress
+383            dialog when changing orientation
+384        -->
+385        <activity
+385-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:377:9-382:57
+386            android:name="nodomain.freeyourgadget.gadgetbridge.activities.DebugActivity"
+386-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:378:13-53
+387            android:label="@string/title_activity_debug"
+387-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:379:13-57
+388            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2"
+388-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:380:13-69
+389            android:screenOrientation="portrait"
+389-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:381:13-49
+390            android:windowSoftInputMode="stateHidden" />
+390-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:382:13-54
+391        <activity
+391-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:383:9-388:57
+392            android:name="nodomain.freeyourgadget.gadgetbridge.activities.DbManagementActivity"
+392-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:384:13-60
+393            android:label="@string/title_activity_db_management"
+393-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:385:13-65
+394            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2"
+394-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:386:13-69
+395            android:screenOrientation="portrait"
+395-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:387:13-49
+396            android:windowSoftInputMode="stateHidden" />
+396-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:388:13-54
+397        <activity
+397-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:389:9-392:72
+398            android:name="nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryActivity"
+398-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:390:13-57
+399            android:label="@string/title_activity_discovery"
+399-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:391:13-61
+400            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+400-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:392:13-69
+401        <activity
+401-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:393:9-395:70
+402            android:name="nodomain.freeyourgadget.gadgetbridge.activities.AndroidPairingActivity"
+402-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:394:13-62
+403            android:label="@string/title_activity_android_pairing" />
+403-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:395:13-67
+404        <activity
+404-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:396:9-398:70
+405            android:name="nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPairingActivity"
+405-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:397:13-65
+406            android:label="@string/title_activity_mi_band_pairing" />
+406-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:398:13-67
+407        <activity
+407-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:399:9-401:69
+408            android:name="nodomain.freeyourgadget.gadgetbridge.devices.pebble.PebblePairingActivity"
+408-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:400:13-65
+409            android:label="@string/title_activity_pebble_pairing" />
+409-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:401:13-66
+410        <activity
+410-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:402:9-404:69
+411            android:name="nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9PairingActivity"
+411-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:403:13-65
+412            android:label="@string/title_activity_watch9_pairing" />
+412-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:404:13-66
+413        <activity
+413-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:405:9-407:73
+414            android:name="nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9CalibrationActivity"
+414-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:406:13-69
+415            android:label="@string/title_activity_watch9_calibration" />
+415-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:407:13-70
+416        <activity
+416-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:408:9-410:70
+417            android:name="nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchPairingActivity"
+417-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:409:13-70
+418            android:label="@string/title_activity_watch9_pairing" />
+418-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:410:13-66
+419        <activity
+419-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:411:9-413:79
+420            android:name="nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchCalibrationActivity"
+420-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:412:13-74
+421            android:label="@string/title_activity_LenovoWatch_calibration" />
+421-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:413:13-75
+422        <activity
+422-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:414:9-417:72
+423            android:name="nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsActivity"
+423-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:415:13-61
+424            android:label="@string/title_activity_charts"
+424-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:416:13-58
+425            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+425-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:417:13-69
+426        <activity
+426-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:418:9-421:72
+427            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ConfigureAlarms"
+427-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:419:13-55
+428            android:label="@string/title_activity_set_alarm"
+428-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:420:13-61
+429            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+429-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:421:13-69
+430        <activity
+430-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:422:9-424:79
+431            android:name="nodomain.freeyourgadget.gadgetbridge.activities.devicesettings.DeviceSettingsActivity"
+431-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:423:13-77
+432            android:label="@string/title_activity_device_specific_settings" />
+432-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:424:13-76
+433        <activity
+433-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:425:9-429:52
+434            android:name="nodomain.freeyourgadget.gadgetbridge.activities.AlarmDetails"
+434-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:426:13-52
+435            android:label="@string/title_activity_alarm_details"
+435-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:427:13-65
+436            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ConfigureAlarms"
+436-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:428:13-69
+437            android:screenOrientation="portrait" />
+437-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:429:13-49
+438        <activity
+438-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:430:9-433:72
+439            android:name="nodomain.freeyourgadget.gadgetbridge.activities.VibrationActivity"
+439-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:431:13-57
+440            android:label="@string/title_activity_vibration"
+440-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:432:13-61
+441            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+441-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:433:13-69
+442        <activity
+442-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:434:9-438:67
+443            android:name="nodomain.freeyourgadget.gadgetbridge.activities.NotificationFilterActivity"
+443-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:435:13-66
+444            android:label="@string/title_activity_notification_filter"
+444-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:436:13-71
+445            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.AppBlacklistActivity"
+445-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:437:13-74
+446            android:windowSoftInputMode="stateHidden|adjustPan" />
+446-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:438:13-64
+447        <activity
+447-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:439:9-441:42
+448            android:name="nodomain.freeyourgadget.gadgetbridge.activities.FindPhoneActivity"
+448-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:440:13-57
+449            android:label="Find Phone" />
+449-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:441:13-39
+450
+451        <provider
+451-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:443:9-446:39
+452            android:name="nodomain.freeyourgadget.gadgetbridge.contentprovider.PebbleContentProvider"
+452-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:444:13-66
+453            android:authorities="com.getpebble.android.provider"
+453-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:445:13-65
+454            android:exported="true" />
+454-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:446:13-36
+455        <provider
+456            android:name="androidx.core.content.FileProvider"
+456-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:448:13-62
+457            android:authorities="nodomain.freeyourgadget.gadgetbridge.screenshot_provider"
+457-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:449:13-71
+458            android:exported="false"
+458-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:450:13-37
+459            android:grantUriPermissions="true" >
+459-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:451:13-47
+460            <meta-data
+460-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:452:13-454:56
+461                android:name="android.support.FILE_PROVIDER_PATHS"
+461-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:453:17-67
+462                android:resource="@xml/shared_paths" />
+462-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:454:17-53
+463        </provider>
+464
+465        <receiver
+465-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:457:9-468:20
+466            android:name="nodomain.freeyourgadget.gadgetbridge.SleepAlarmWidget"
+466-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:458:13-45
+467            android:label="@string/appwidget_sleep_alarm_widget_label" >
+467-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:459:13-71
+468            <intent-filter>
+468-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:460:13-463:29
+469                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+469-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:461:17-84
+469-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:461:25-81
+470                <action android:name="nodomain.freeyourgadget.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK" />
+470-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:462:17-104
+470-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:462:25-101
+471            </intent-filter>
+472
+473            <meta-data
+473-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:465:13-467:67
+474                android:name="android.appwidget.provider"
+474-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:466:17-58
+475                android:resource="@xml/sleep_alarm_widget_info" />
+475-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:467:17-64
+476        </receiver>
+477        <receiver
+477-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:469:9-480:20
+478            android:name="nodomain.freeyourgadget.gadgetbridge.Widget"
+478-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:470:13-35
+479            android:label="@string/widget_listing_label" >
+479-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:471:13-57
+480            <intent-filter>
+480-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:472:13-475:29
+481                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+481-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:461:17-84
+481-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:461:25-81
+482                <action android:name="nodomain.freeyourgadget.gadgetbridge.WidgetClick" />
+482-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:474:17-91
+482-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:474:25-88
+483            </intent-filter>
+484
+485            <meta-data
+485-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:465:13-467:67
+486                android:name="android.appwidget.provider"
+486-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:466:17-58
+487                android:resource="@xml/widget_info" />
+487-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:467:17-64
+488        </receiver>
+489
+490        <activity
+490-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:482:9-486:67
+491            android:name="nodomain.freeyourgadget.gadgetbridge.activities.WidgetAlarmsActivity"
+491-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:483:13-60
+492            android:excludeFromRecents="true"
+492-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:484:13-46
+493            android:launchMode="singleInstance"
+493-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:485:13-48
+494            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+494-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:486:13-64
+495        <activity
+495-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:487:9-506:20
+496            android:name="nodomain.freeyourgadget.gadgetbridge.activities.ExternalPebbleJSActivity"
+496-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:488:13-64
+497            android:allowTaskReparenting="true"
+497-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:489:13-48
+498            android:clearTaskOnLaunch="true"
+498-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:490:13-45
+499            android:label="@string/app_configure"
+499-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:491:13-50
+500            android:launchMode="singleTask"
+500-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:492:13-44
+501            android:parentActivityName="nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AppManagerActivity" >
+501-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:493:13-83
+502            <meta-data
+502-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:494:13-496:99
+503                android:name="android.support.PARENT_ACTIVITY"
+503-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:495:17-63
+504                android:value="nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2" />
+504-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:496:17-96
+505
+506            <intent-filter>
+506-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:498:13-505:29
+507                <action android:name="android.intent.action.VIEW" />
+507-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:100:17-69
+507-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:100:25-66
+508
+509                <category android:name="android.intent.category.DEFAULT" />
+509-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:17-76
+509-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:27-73
+510                <category android:name="android.intent.category.BROWSABLE" />
+510-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:502:17-78
+510-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:502:27-75
+511
+512                <data android:scheme="gadgetbridge" />
+512-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+512-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:108:23-44
+513            </intent-filter>
+514        </activity>
+515        <activity
+515-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:507:9-509:39
+516            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ConfigActivity"
+516-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:508:13-59
+517            android:exported="true" />
+517-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:509:13-36
+518        <activity
+518-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:510:9-512:39
+519            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.QHybridAppChoserActivity"
+519-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:511:13-69
+520            android:exported="true" />
+520-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:512:13-36
+521        <activity
+521-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:513:9-515:39
+522            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity"
+522-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:514:13-61
+523            android:exported="true" />
+523-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:515:13-36
+524        <activity
+524-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:516:9-518:39
+525            android:name="nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ImageEditActivity"
+525-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:517:13-62
+526            android:exported="true" />
+526-->/home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:518:13-36
+527    </application>
+528
+529</manifest>

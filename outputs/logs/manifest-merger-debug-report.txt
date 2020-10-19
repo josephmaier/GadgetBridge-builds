@@ -1,0 +1,790 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:447:9-455:20
+	android:grantUriPermissions
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:451:13-47
+	android:authorities
+		INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:449:13-71
+	android:exported
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:450:13-37
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:448:13-62
+manifest
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:2:1-521:12
+INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:2:1-521:12
+INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:2:1-521:12
+INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:2:1-521:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ef6a6d61f02a60fa054cb1b38b3cf432/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference:1.1.1] /home/joemaier/.gradle/caches/transforms-2/files-2.1/9dfcbea5b00cfb230bab21e39afaa7d4/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/d6fd566ffcdf4e71700be34631dae78f/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jaredrummler:colorpicker:1.0.2] /home/joemaier/.gradle/caches/transforms-2/files-2.1/820cbaf7b05aed441dbd1c7820f12b32/jetified-colorpicker-1.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.wax911:android-emojify:0.1.7] /home/joemaier/.gradle/caches/transforms-2/files-2.1/652897681a841902ebbf3b756a511d25/jetified-android-emojify-0.1.7/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/af4e22ed200f64640292f60c727ab7c0/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ecda9f9b72d1380e5d2360fe5b6701c6/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/5bb01851b6a7b14802e07c3b9dd3d25f/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/cdaf8c48330769d031c6eaef22149bb3/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/29f7254887a8fe79310b585833b30e96/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/495256591b47a2fb8ffd67f19086b0b7/gridlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.palette:palette:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/405fa65decbddc3bb66d324b664e1ee5/palette-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/0a2fb34f655a5bc827ebd2e9e3c70672/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:2:1-20:12
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] /home/joemaier/.gradle/caches/transforms-2/files-2.1/c134e618519ea98a850aeefcf7e83f2f/jetified-ckchangelog-1.2.2/AndroidManifest.xml:2:1-11:12
+MERGED from [org.cyanogenmod:platform.sdk:6.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/8744a39aef786b63ce811b891e1ddc72/jetified-platform.sdk-6.0/AndroidManifest.xml:19:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/2ec3368a8aa1ce1658901a63c9e0a29e/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/e546cfca998c6edd58bccbc7726c2aad/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/3ec9003b234400083b8256b68c3e18a0/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.4] /home/joemaier/.gradle/caches/transforms-2/files-2.1/0562e51539e42385809299d153d70dcc/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/c5db92c3d9be8d9379d26ab7eee3d7e5/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/b410a366c3a0a6434a83f18cc80aaf1b/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/88a57ba24bfca0755c219bc479d89854/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/eff5c033185c553c61c8eef5fc20ba2f/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/49ea054bbae42f1db9fa1f1b041e7b90/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/57e7d4d9d8ebeb895b454082f0335a40/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/1329fddae7599b07314a358a18d57e0d/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ea5a71c62eeb432f85e4e242c0528fcb/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/2a9c5827614f84501a4474bfd2d1c23a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/f634062d11603f3e9fd0cad91bec9618/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/e9d0b6eb0353b535deb805e78b93bb4b/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/971a747f1a3cd8d14353423acd48daac/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/3fae5c1a373d3a2a05e2882d2192527e/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ebde7b3facba6b092e49dd0d4ec8f05f/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/01b2180571dcb96c91564b779a7ee20e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/4c63d3b7d549696ba495d3beb8a73e2f/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/1eaef3d84bb7b7096ebf6c45a3ac1a5c/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/3317157b56fd721e93583ae1ebdd77f4/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/81f53bf70017a3562349ea3100f05330/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/0d5e48e3a621438ef411d70fa436c69a/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/77c96e7da0da7281bd230f31347277f8/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/8adc58529eddcf549670f0f9b76f2422/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/d813f98361160877a1a5e6e51115c8a9/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/0383ea84fbc32c5d7a52777b41b27496/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/c3730d6e3a18c30ca010c3a2b2861d65/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/accf6686b87102e10b724b3b53be7443/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/1a389b993a7055ea4464450f90fc8745/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:2:1-521:12
+INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:2:1-521:12
+INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:2:1-521:12
+	package
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:3:5-51
+		INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+		INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:2:1-521:12
+		INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:2:1-521:12
+		INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:9:5-74
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:9:22-71
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:10:5-72
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:10:22-69
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:11:22-72
+uses-permission#android.permission.PROCESS_OUTGOING_CALLS
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:13:5-69
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:13:22-66
+uses-permission#android.permission.ANSWER_PHONE_CALLS
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:14:22-74
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:15:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:17:5-72
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:17:22-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:18:22-77
+uses-permission#android.permission.READ_CALENDAR
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:19:5-72
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:19:22-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:20:22-78
+uses-permission#android.permission.MEDIA_CONTENT_CONTROL
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:21:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:22:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:23:5-77
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:23:22-74
+uses-permission#android.permission.VIBRATE
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:24:22-63
+uses-permission#cyanogenmod.permission.ACCESS_WEATHER_MANAGER
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:25:5-85
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:25:22-82
+uses-permission#cyanogenmod.permission.READ_WEATHER
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:26:5-75
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:26:22-72
+uses-permission#lineageos.permission.ACCESS_WEATHER_MANAGER
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:27:5-83
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:27:22-80
+uses-permission#lineageos.permission.READ_WEATHER
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:28:5-73
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:28:22-70
+uses-permission#org.omnirom.omnijaws.READ_WEATHER
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:29:5-73
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:29:22-70
+uses-feature#android.hardware.bluetooth
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:31:5-33:35
+	android:required
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:33:9-32
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:32:9-50
+uses-feature#android.hardware.bluetooth_le
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:34:5-36:36
+	android:required
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:36:9-33
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:35:9-53
+uses-feature#android.hardware.telephony
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:37:5-39:36
+	android:required
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:39:9-33
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:38:9-50
+application
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:41:5-519:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ef6a6d61f02a60fa054cb1b38b3cf432/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ef6a6d61f02a60fa054cb1b38b3cf432/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/d6fd566ffcdf4e71700be34631dae78f/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/d6fd566ffcdf4e71700be34631dae78f/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.github.wax911:android-emojify:0.1.7] /home/joemaier/.gradle/caches/transforms-2/files-2.1/652897681a841902ebbf3b756a511d25/jetified-android-emojify-0.1.7/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.wax911:android-emojify:0.1.7] /home/joemaier/.gradle/caches/transforms-2/files-2.1/652897681a841902ebbf3b756a511d25/jetified-android-emojify-0.1.7/AndroidManifest.xml:11:5-14:19
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] /home/joemaier/.gradle/caches/transforms-2/files-2.1/c134e618519ea98a850aeefcf7e83f2f/jetified-ckchangelog-1.2.2/AndroidManifest.xml:9:5-20
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] /home/joemaier/.gradle/caches/transforms-2/files-2.1/c134e618519ea98a850aeefcf7e83f2f/jetified-ckchangelog-1.2.2/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ebde7b3facba6b092e49dd0d4ec8f05f/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ebde7b3facba6b092e49dd0d4ec8f05f/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/4c63d3b7d549696ba495d3beb8a73e2f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/4c63d3b7d549696ba495d3beb8a73e2f/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ebde7b3facba6b092e49dd0d4ec8f05f/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from [com.github.wax911:android-emojify:0.1.7] /home/joemaier/.gradle/caches/transforms-2/files-2.1/652897681a841902ebbf3b756a511d25/jetified-android-emojify-0.1.7/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:46:9-41
+	android:fullBackupContent
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:44:9-42
+	android:roundIcon
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:47:9-54
+	android:icon
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:45:9-43
+	android:allowBackup
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:43:9-36
+	android:theme
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:48:9-49
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:42:9-38
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.WidgetSettingsActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:49:9-85
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:49:19-73
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:50:9-61:20
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:52:13-65
+	android:theme
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:53:13-47
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:51:13-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:54:13-60:29
+category#android.intent.category.DEFAULT
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:17-76
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:55:27-73
+action#android.intent.action.MAIN
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:57:17-69
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:57:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:59:17-77
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:59:27-74
+activity#nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:62:9-65:72
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:65:13-69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:64:13-60
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:63:13-56
+activity#nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsPreferencesActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:66:9-69:89
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:69:13-86
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:68:13-58
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:67:13-72
+activity#nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPreferencesActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:70:9-73:73
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:73:13-70
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:72:13-64
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:71:13-69
+activity#nodomain.freeyourgadget.gadgetbridge.devices.zetime.ZeTimePreferenceActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:74:9-77:73
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:77:13-70
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:76:13-58
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:75:13-68
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:78:9-81:72
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:81:13-69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:80:13-55
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:79:13-65
+activity#nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AppManagerActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:82:9-86:72
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:86:13-69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:84:13-62
+	android:launchMode
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:85:13-43
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:83:13-69
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AppBlacklistActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:87:9-90:73
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:90:13-70
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:89:13-64
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:88:13-60
+activity#nodomain.freeyourgadget.gadgetbridge.activities.CalBlacklistActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:91:9-94:73
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:94:13-70
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:93:13-64
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:92:13-60
+activity#nodomain.freeyourgadget.gadgetbridge.activities.FwAppInstallerActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:95:9-312:20
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:98:13-69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:97:13-67
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:96:13-62
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\.ft+data:pathPattern:/.*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\.fw+data:pathPattern:/.*\\..*\\.gps+data:pathPattern:/.*\\..*\\.pbl+data:pathPattern:/.*\\..*\\.pbw+data:pathPattern:/.*\\..*\\.pbz+data:pathPattern:/.*\\..*\\.res+data:pathPattern:/.*\\.ft+data:pathPattern:/.*\\.ft.en+data:pathPattern:/.*\\.fw+data:pathPattern:/.*\\.gps+data:pathPattern:/.*\\.pbl+data:pathPattern:/.*\\.pbw+data:pathPattern:/.*\\.pbz+data:pathPattern:/.*\\.res+data:scheme:file
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:99:13-192:29
+action#android.intent.action.VIEW
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:100:17-69
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:100:25-66
+data
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:17-48
+	android:host
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:107:23-39
+	android:scheme
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:108:23-44
+	android:pathPattern
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:112:23-53
+	android:mimeType
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:104:23-45
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:host:*+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\..*\\.ft+data:pathPattern:/.*\\..*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\..*\\.fw+data:pathPattern:/.*\\..*\\..*\\.gps+data:pathPattern:/.*\\..*\\..*\\.pbl+data:pathPattern:/.*\\..*\\..*\\.pbw+data:pathPattern:/.*\\..*\\..*\\.pbz+data:pathPattern:/.*\\..*\\..*\\.res+data:pathPattern:/.*\\..*\\.ft+data:pathPattern:/.*\\..*\\.ft.en+data:pathPattern:/.*\\..*\\.fw+data:pathPattern:/.*\\..*\\.gps+data:pathPattern:/.*\\..*\\.pbl+data:pathPattern:/.*\\..*\\.pbw+data:pathPattern:/.*\\..*\\.pbz+data:pathPattern:/.*\\..*\\.res+data:pathPattern:/.*\\.ft+data:pathPattern:/.*\\.ft.en+data:pathPattern:/.*\\.fw+data:pathPattern:/.*\\.gps+data:pathPattern:/.*\\.pbl+data:pathPattern:/.*\\.pbw+data:pathPattern:/.*\\.pbz+data:pathPattern:/.*\\.res+data:scheme:file
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:193:13-285:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/octet-stream
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:288:13-294:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.DEFAULT+data:mimeType:application/x-zip-compressed+data:mimeType:application/zip
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:296:13-303:29
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:305:13-311:29
+action#android.intent.action.SEND
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:306:17-69
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:306:25-66
+service#nodomain.freeyourgadget.gadgetbridge.externalevents.NotificationListener
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:314:9-321:19
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:316:13-45
+	android:permission
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:317:13-87
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:315:13-64
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:318:13-320:29
+action#android.service.notification.NotificationListenerService
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:319:17-99
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:319:25-96
+service#nodomain.freeyourgadget.gadgetbridge.service.NotificationCollectorMonitorService
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:322:9-80
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:322:18-77
+service#nodomain.freeyourgadget.gadgetbridge.service.DeviceCommunicationService
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:323:9-71
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:323:18-68
+receiver#nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationReceiver
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:325:9-331:20
+	android:enabled
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:327:13-35
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:326:13-71
+intent-filter#action:name:ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:328:13-330:29
+action#ru.gelin.android.weather.notification.ACTION_WEATHER_UPDATE_2
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:329:17-104
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:329:25-101
+activity#nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationConfig
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:333:9-337:20
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:333:19-75
+intent-filter#action:name:ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:334:13-336:29
+action#ru.gelin.android.weather.notification.ACTION_WEATHER_SKIN_PREFERENCES
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:335:17-112
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:335:25-109
+receiver#nodomain.freeyourgadget.gadgetbridge.externalevents.AutoStartReceiver
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:339:9-347:20
+	android:permission
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:341:13-75
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:340:13-61
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:342:13-346:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:343:17-79
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:343:25-76
+receiver#nodomain.freeyourgadget.gadgetbridge.externalevents.BluetoothStateChangeReceiver
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:348:9-354:20
+	android:exported
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:350:13-37
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:349:13-72
+intent-filter#action:name:android.bluetooth.adapter.action.STATE_CHANGED
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:351:13-353:29
+action#android.bluetooth.adapter.action.STATE_CHANGED
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:352:17-89
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:352:25-86
+receiver#nodomain.freeyourgadget.gadgetbridge.service.receivers.GBMusicControlReceiver
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:355:9-361:20
+	android:exported
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:357:13-37
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:356:13-69
+intent-filter#action:name:nodomain.freeyourgadget.gadgetbridge.musiccontrol
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:358:13-360:29
+action#nodomain.freeyourgadget.gadgetbridge.musiccontrol
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:359:17-92
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:359:25-89
+receiver#nodomain.freeyourgadget.gadgetbridge.service.receivers.GBCallControlReceiver
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:362:9-368:20
+	android:exported
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:364:13-37
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:363:13-68
+intent-filter#action:name:nodomain.freeyourgadget.gadgetbridge.callcontrol
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:365:13-367:29
+action#nodomain.freeyourgadget.gadgetbridge.callcontrol
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:366:17-91
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:366:25-88
+receiver#nodomain.freeyourgadget.gadgetbridge.database.PeriodicExporter
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:369:9-372:49
+	android:enabled
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:371:13-35
+	android:exported
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:372:13-37
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:370:13-54
+activity#nodomain.freeyourgadget.gadgetbridge.activities.DebugActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:377:9-382:57
+	android:screenOrientation
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:381:13-49
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:380:13-69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:379:13-57
+	android:windowSoftInputMode
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:382:13-54
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:378:13-53
+activity#nodomain.freeyourgadget.gadgetbridge.activities.DbManagementActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:383:9-388:57
+	android:screenOrientation
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:387:13-49
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:386:13-69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:385:13-65
+	android:windowSoftInputMode
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:388:13-54
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:384:13-60
+activity#nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:389:9-392:72
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:392:13-69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:391:13-61
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:390:13-57
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AndroidPairingActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:393:9-395:70
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:395:13-67
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:394:13-62
+activity#nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPairingActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:396:9-398:70
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:398:13-67
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:397:13-65
+activity#nodomain.freeyourgadget.gadgetbridge.devices.pebble.PebblePairingActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:399:9-401:69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:401:13-66
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:400:13-65
+activity#nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9PairingActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:402:9-404:69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:404:13-66
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:403:13-65
+activity#nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9CalibrationActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:405:9-407:73
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:407:13-70
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:406:13-69
+activity#nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchPairingActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:408:9-410:70
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:410:13-66
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:409:13-70
+activity#nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchCalibrationActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:411:9-413:79
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:413:13-75
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:412:13-74
+activity#nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:414:9-417:72
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:417:13-69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:416:13-58
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:415:13-61
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ConfigureAlarms
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:418:9-421:72
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:421:13-69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:420:13-61
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:419:13-55
+activity#nodomain.freeyourgadget.gadgetbridge.activities.devicesettings.DeviceSettingsActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:422:9-424:79
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:424:13-76
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:423:13-77
+activity#nodomain.freeyourgadget.gadgetbridge.activities.AlarmDetails
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:425:9-429:52
+	android:screenOrientation
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:429:13-49
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:428:13-69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:427:13-65
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:426:13-52
+activity#nodomain.freeyourgadget.gadgetbridge.activities.VibrationActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:430:9-433:72
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:433:13-69
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:432:13-61
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:431:13-57
+activity#nodomain.freeyourgadget.gadgetbridge.activities.NotificationFilterActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:434:9-438:67
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:437:13-74
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:436:13-71
+	android:windowSoftInputMode
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:438:13-64
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:435:13-66
+activity#nodomain.freeyourgadget.gadgetbridge.activities.FindPhoneActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:439:9-441:42
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:441:13-39
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:440:13-57
+provider#nodomain.freeyourgadget.gadgetbridge.contentprovider.PebbleContentProvider
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:443:9-446:39
+	android:authorities
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:445:13-65
+	android:exported
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:446:13-36
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:444:13-66
+receiver#nodomain.freeyourgadget.gadgetbridge.SleepAlarmWidget
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:457:9-468:20
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:459:13-71
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:458:13-45
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:nodomain.freeyourgadget.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:460:13-463:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:461:17-84
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:461:25-81
+action#nodomain.freeyourgadget.gadgetbridge.SLEEP_ALARM_WIDGET_CLICK
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:462:17-104
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:462:25-101
+meta-data#android.appwidget.provider
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:465:13-467:67
+	android:resource
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:467:17-64
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:466:17-58
+receiver#nodomain.freeyourgadget.gadgetbridge.Widget
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:469:9-480:20
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:471:13-57
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:470:13-35
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE+action:name:nodomain.freeyourgadget.gadgetbridge.WidgetClick
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:472:13-475:29
+action#nodomain.freeyourgadget.gadgetbridge.WidgetClick
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:474:17-91
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:474:25-88
+activity#nodomain.freeyourgadget.gadgetbridge.activities.WidgetAlarmsActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:482:9-486:67
+	android:excludeFromRecents
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:484:13-46
+	android:launchMode
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:485:13-48
+	android:theme
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:486:13-64
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:483:13-60
+activity#nodomain.freeyourgadget.gadgetbridge.activities.ExternalPebbleJSActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:487:9-506:20
+	android:clearTaskOnLaunch
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:490:13-45
+	android:parentActivityName
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:493:13-83
+	android:label
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:491:13-50
+	android:launchMode
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:492:13-44
+	android:allowTaskReparenting
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:489:13-48
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:488:13-64
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:494:13-496:99
+	android:value
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:496:17-96
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:495:17-63
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:gadgetbridge
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:498:13-505:29
+category#android.intent.category.BROWSABLE
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:502:17-78
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:502:27-75
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ConfigActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:507:9-509:39
+	android:exported
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:509:13-36
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:508:13-59
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.QHybridAppChoserActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:510:9-512:39
+	android:exported
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:512:13-36
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:511:13-69
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:513:9-515:39
+	android:exported
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:515:13-36
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:514:13-61
+activity#nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ImageEditActivity
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:516:9-518:39
+	android:exported
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:518:13-36
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:517:13-62
+uses-sdk
+INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ef6a6d61f02a60fa054cb1b38b3cf432/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ef6a6d61f02a60fa054cb1b38b3cf432/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.preference:preference:1.1.1] /home/joemaier/.gradle/caches/transforms-2/files-2.1/9dfcbea5b00cfb230bab21e39afaa7d4/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /home/joemaier/.gradle/caches/transforms-2/files-2.1/9dfcbea5b00cfb230bab21e39afaa7d4/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/d6fd566ffcdf4e71700be34631dae78f/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/d6fd566ffcdf4e71700be34631dae78f/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jaredrummler:colorpicker:1.0.2] /home/joemaier/.gradle/caches/transforms-2/files-2.1/820cbaf7b05aed441dbd1c7820f12b32/jetified-colorpicker-1.0.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.jaredrummler:colorpicker:1.0.2] /home/joemaier/.gradle/caches/transforms-2/files-2.1/820cbaf7b05aed441dbd1c7820f12b32/jetified-colorpicker-1.0.2/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.wax911:android-emojify:0.1.7] /home/joemaier/.gradle/caches/transforms-2/files-2.1/652897681a841902ebbf3b756a511d25/jetified-android-emojify-0.1.7/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wax911:android-emojify:0.1.7] /home/joemaier/.gradle/caches/transforms-2/files-2.1/652897681a841902ebbf3b756a511d25/jetified-android-emojify-0.1.7/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/af4e22ed200f64640292f60c727ab7c0/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/af4e22ed200f64640292f60c727ab7c0/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ecda9f9b72d1380e5d2360fe5b6701c6/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ecda9f9b72d1380e5d2360fe5b6701c6/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/5bb01851b6a7b14802e07c3b9dd3d25f/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/5bb01851b6a7b14802e07c3b9dd3d25f/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/cdaf8c48330769d031c6eaef22149bb3/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/cdaf8c48330769d031c6eaef22149bb3/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/29f7254887a8fe79310b585833b30e96/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/29f7254887a8fe79310b585833b30e96/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/495256591b47a2fb8ffd67f19086b0b7/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/495256591b47a2fb8ffd67f19086b0b7/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/405fa65decbddc3bb66d324b664e1ee5/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.palette:palette:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/405fa65decbddc3bb66d324b664e1ee5/palette-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/0a2fb34f655a5bc827ebd2e9e3c70672/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/0a2fb34f655a5bc827ebd2e9e3c70672/jetified-MPAndroidChart-v3.1.0/AndroidManifest.xml:16:5-18:41
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] /home/joemaier/.gradle/caches/transforms-2/files-2.1/c134e618519ea98a850aeefcf7e83f2f/jetified-ckchangelog-1.2.2/AndroidManifest.xml:7:5-43
+MERGED from [de.cketti.library.changelog:ckchangelog:1.2.2] /home/joemaier/.gradle/caches/transforms-2/files-2.1/c134e618519ea98a850aeefcf7e83f2f/jetified-ckchangelog-1.2.2/AndroidManifest.xml:7:5-43
+MERGED from [org.cyanogenmod:platform.sdk:6.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/8744a39aef786b63ce811b891e1ddc72/jetified-platform.sdk-6.0/AndroidManifest.xml:21:5-43
+MERGED from [org.cyanogenmod:platform.sdk:6.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/8744a39aef786b63ce811b891e1ddc72/jetified-platform.sdk-6.0/AndroidManifest.xml:21:5-43
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/2ec3368a8aa1ce1658901a63c9e0a29e/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/2ec3368a8aa1ce1658901a63c9e0a29e/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/e546cfca998c6edd58bccbc7726c2aad/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/e546cfca998c6edd58bccbc7726c2aad/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/3ec9003b234400083b8256b68c3e18a0/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/3ec9003b234400083b8256b68c3e18a0/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] /home/joemaier/.gradle/caches/transforms-2/files-2.1/0562e51539e42385809299d153d70dcc/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /home/joemaier/.gradle/caches/transforms-2/files-2.1/0562e51539e42385809299d153d70dcc/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/c5db92c3d9be8d9379d26ab7eee3d7e5/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/c5db92c3d9be8d9379d26ab7eee3d7e5/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/b410a366c3a0a6434a83f18cc80aaf1b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/b410a366c3a0a6434a83f18cc80aaf1b/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/88a57ba24bfca0755c219bc479d89854/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/88a57ba24bfca0755c219bc479d89854/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/eff5c033185c553c61c8eef5fc20ba2f/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/eff5c033185c553c61c8eef5fc20ba2f/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/49ea054bbae42f1db9fa1f1b041e7b90/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/49ea054bbae42f1db9fa1f1b041e7b90/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/57e7d4d9d8ebeb895b454082f0335a40/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/57e7d4d9d8ebeb895b454082f0335a40/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/1329fddae7599b07314a358a18d57e0d/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/1329fddae7599b07314a358a18d57e0d/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ea5a71c62eeb432f85e4e242c0528fcb/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ea5a71c62eeb432f85e4e242c0528fcb/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/2a9c5827614f84501a4474bfd2d1c23a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/2a9c5827614f84501a4474bfd2d1c23a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/f634062d11603f3e9fd0cad91bec9618/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/f634062d11603f3e9fd0cad91bec9618/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/e9d0b6eb0353b535deb805e78b93bb4b/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/e9d0b6eb0353b535deb805e78b93bb4b/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/971a747f1a3cd8d14353423acd48daac/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/971a747f1a3cd8d14353423acd48daac/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/3fae5c1a373d3a2a05e2882d2192527e/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/3fae5c1a373d3a2a05e2882d2192527e/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ebde7b3facba6b092e49dd0d4ec8f05f/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/ebde7b3facba6b092e49dd0d4ec8f05f/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/01b2180571dcb96c91564b779a7ee20e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/01b2180571dcb96c91564b779a7ee20e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/4c63d3b7d549696ba495d3beb8a73e2f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/4c63d3b7d549696ba495d3beb8a73e2f/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/1eaef3d84bb7b7096ebf6c45a3ac1a5c/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/1eaef3d84bb7b7096ebf6c45a3ac1a5c/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/3317157b56fd721e93583ae1ebdd77f4/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/3317157b56fd721e93583ae1ebdd77f4/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/81f53bf70017a3562349ea3100f05330/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/81f53bf70017a3562349ea3100f05330/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/0d5e48e3a621438ef411d70fa436c69a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/0d5e48e3a621438ef411d70fa436c69a/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/77c96e7da0da7281bd230f31347277f8/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/77c96e7da0da7281bd230f31347277f8/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/8adc58529eddcf549670f0f9b76f2422/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/8adc58529eddcf549670f0f9b76f2422/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/d813f98361160877a1a5e6e51115c8a9/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/d813f98361160877a1a5e6e51115c8a9/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/0383ea84fbc32c5d7a52777b41b27496/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/0383ea84fbc32c5d7a52777b41b27496/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/c3730d6e3a18c30ca010c3a2b2861d65/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/c3730d6e3a18c30ca010c3a2b2861d65/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/accf6686b87102e10b724b3b53be7443/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/accf6686b87102e10b724b3b53be7443/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/1a389b993a7055ea4464450f90fc8745/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/joemaier/.gradle/caches/transforms-2/files-2.1/1a389b993a7055ea4464450f90fc8745/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+		INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+		INJECTED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:452:13-454:56
+	android:resource
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:454:17-53
+	android:name
+		ADDED from /home/joemaier/WaspOs/gadgetbridge-wasp-os/app/src/main/AndroidManifest.xml:453:17-67
